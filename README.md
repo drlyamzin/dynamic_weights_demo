@@ -1,6 +1,5 @@
-This package is intended for a dataset where a subject makes binary choices (e.g. Left/Right) on many trials, while the brain activity is being recorded. 
+This code fits a dynamical psychometric model (probability of choice {0,1} given task conditions X) and a dynamical model of neural activity using state-space approach, i.e. a type of latent variable models with Markovian dynamics and a stochastic observation process. It then links up the inferred neural and psychometric latent variables using a third dynamical model. This package is intended for a dataset where a subject makes binary choices (e.g. Left/Right) on many trials, while the brain activity is being recorded. 
 
-This code fits a dynamical psychometric model (probability of choice {0,1} given task conditions X) and a dynamical model of neural activity using state-space approach, i.e. a type of latent variable models with Markovian dynamics and a stochastic observation process. It then links up the inferred neural and psychometric latent variables using a third dynamical model.
 
 **Available demos:**
 
